@@ -63,26 +63,44 @@ section{
 .sec1{
     display: none;
     transform: translateY(0) scale(1);
+    background-color: greenyellow;
 }
 
 .sec2{
     display: none;
     transform: translateY(0) scale(1);
+    background-color: #27AE60;
 }
 
 .sec3{
     display: none;
     transform: translateY(0) scale(1);
+    background-color: slateblue;
 }
 
 .sec4{
     display: none;
     transform: translateY(0) scale(1);
+    background-color: yellow;
 }
 
 .sec5{
     display: none;
     transform: translateY(0) scale(1);
+}
+
+.active{
+    display: block;
+    animation: scaleAim 1s ease-in-out;
+    @keyframes scaleAim {
+        0%{
+            transform: translateY(-100%) scaleY(0);
+        }
+        100%{
+            transform: translateY(0) scaleY(1);
+        }
+        
+    }
 }
 
 //Controls
@@ -101,7 +119,7 @@ section{
         transition: all .4s ease-in-out;
         i{
             color: var(--color-white) !important;
-        }
+        } 
     }
 
     .control{
