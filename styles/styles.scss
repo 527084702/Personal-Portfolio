@@ -592,7 +592,7 @@ section{
             object-fit: cover;
             border-top-left-radius: 5px;
             border-top-right-radius: 5px;
-            filter: grayscale(100%);
+            filter: grayscale(0);
             transition: all .4s ease-in-out;
         }
         .blog-text{

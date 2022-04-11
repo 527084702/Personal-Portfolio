@@ -784,8 +784,8 @@ section {
      object-fit: cover;
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
-  -webkit-filter: grayscale(100%);
-          filter: grayscale(100%);
+  -webkit-filter: grayscale(0);
+          filter: grayscale(0);
   -webkit-transition: all .4s ease-in-out;
   transition: all .4s ease-in-out;
 }
