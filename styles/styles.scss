@@ -388,7 +388,7 @@ section{
                     }
 
                     .node{
-                        width: 10%;
+                        width: 15%;
                     }
 
                     .vue{
@@ -396,7 +396,7 @@ section{
                     }
 
                     .react{
-                        width: 10%;
+                        width: 25%;
                     }
 
                     .java{
@@ -615,4 +615,14 @@ section{
             }
         }
     }
+}
+
+//Contact section
+.contact-content-container{
+    display: flex;
+    padding-top: 3.5rem;
+    .left-contact{
+        flex: 2;
+    }
+
 }
