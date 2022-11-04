@@ -558,4 +558,4 @@ arrTest.sort(function(a, b){
 })
 console.log(arrTest)
 //Short version - arrTest.sort((a, b) => b - a);
-/*
+*/
